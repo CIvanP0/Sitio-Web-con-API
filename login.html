@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleLogin.css">
+</head>
+<body>
+    <div class="containerPrincipal">
+        <div class="columna">
+            <div class="ventana"></div>
+            <div class="marco-imagen">
+                <img src="Img/Logo.png" class="imagen" alt="Imagen">
+            </div>
+        </div>
+        <div class="columna">
+            <div class="formulario">
+                <div class="form-group">
+                    <input id="usuario" type="text" class="form-control" name="username" placeholder="Usuario">
+                    <input id="contrasena" type="password" class="form-control" name="password" placeholder="Contraseña">
+                    <br>
+                    <div class="boton-container">
+                        <button id="buton" class="boton" onclick="login()">Iniciar Sesión</button>
+                        <button id="butonR" class="boton">Registrarse</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

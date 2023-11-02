@@ -1,0 +1,133 @@
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(217, 217, 217, 0.5);
+    padding: 30px;
+    align-items: center;
+    border-radius: 0 0 10% 10% / 10%;
+  }
+
+  .btnLibros{
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #66482C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 80px;
+  }
+
+  .btnAudiolibros{
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #66482C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .btnAccesorios{
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #66482C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  .fondo{
+    background-color: #000000;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Img/fondo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 60px;
+
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .txtBuscar{
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .btnBuscar{
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #66482C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 80px;
+    /*background-image: url("Img/buscar.png");
+    background-size: cover;
+    background-repeat: no-repeat;*/
+  }
+  
+  #book-catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .book-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .book-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .book-content {
+    margin-top: 20px;
+  }
+  
+  .book-cover {
+    max-width: 200px;
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 4px;
+  }
+  
+  .book-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .book-author {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .book-description {
+    font-size: 14px;
+    color: #777;
+    text-align: justify;
+  }
+  

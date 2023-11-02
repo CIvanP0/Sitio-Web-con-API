@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo de libros</title>
+  <link rel="stylesheet" type="text/css" href="stylesLibreria.css">
+  <script src="funciones.js"></script>
+</head>
+<body class="fondo">
+  <div class="encabezado">
+    <input class="btnLibros" type="submit" value="Libros">
+    <input class="btnAudiolibros" type="submit" value="Audiolibros">
+    <input class="btnAccesorios" type="submit" value="Accesorios">
+    <form onsubmit="event.preventDefault(); searchBooks(this.query.value);">
+      <input class="txtBuscar" type="text" name="query" placeholder="Buscar libros...">
+      <input class="btnBuscar" type="submit" value="Buscar">
+    </form>
+  </div>
+
+  <div id="book-catalog"></div>
+</body>
+</html>
